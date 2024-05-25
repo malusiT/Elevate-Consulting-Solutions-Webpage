@@ -1,7 +1,11 @@
 .fa {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
   font-size: 30px;
-  width: 50px;
+  width: 10px;
+  height: 10px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -15,6 +19,7 @@
 .fa-facebook {
   background: #3B5998;
   color: white;
+  
 }
 
 .fa-twitter {
