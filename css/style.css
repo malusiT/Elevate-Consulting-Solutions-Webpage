@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+#logo-image {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+nav {
+    margin: 15px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #ccc;
+}
+h1, h2, h4{
+    text-align: center;
+    /* position: relative; */
+}
+article{ 
+    padding: 20px;
+}
+
+#hero-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.formal-button {
+    display: block; /* Change display to block to center using margin */
+    margin: 0 auto; /* Center horizontally */
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formal-button:hover {
+    background-color: #0056b3;
+}
+
+
+.container {
+    position: relative;
+    height: 400px; /* Set a height for the container */
+    background-image: url("../images/pexels-fauxels-3184360.jpg"); /* Adjust path as per your folder structure */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    /* font-size: 24px; */
+    /* font-weight: bold; */
+}
+.text-overlay {
+    position: absolute;
+    top: 50%; /* Adjust vertically as needed */
+    left: 50%; /* Adjust horizontally as needed */
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 15px;
+}
+
+
+#our-services{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#our-services ol{
+    list-style-type: none;
+}
+
+#our-services ol li {
+    text-decoration: none;
+    padding: 5px;
+}
+
+#our-services ul{
+    list-style-type: none;
+}
+#our-services ul li{
+    padding: 5px;
+}
+#testimonials{
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Two columns with equal width */
+    max-width: 800px; /* Adjust max width as needed */
+    margin: 0 auto; /* Center the grid container horizontally */
+    padding: 10px; /* Padding around the grid container */
+}
+
+.contact-container h3 {
+    grid-column: 1 / -1; /* Span across all columns */
+    text-align: center; /* Center align the heading */
+}
+
+.contact-container form {
+    display: grid;
+    /* gap: 10px; */
+}
+
+.contact-container label {
+    text-align: left; /* Align labels to the right */
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-container textarea {
+    height: 100px;
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.formal-button {
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formal-button:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    margin: 15px 0;
+    color: #fff;
+    background-color: #333;
+    padding-top: 10px;
+}
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li {
+    margin: 0 15px;
+
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+#social-media{
+    display: flex;
+    justify-content: space-evenly;
+}
