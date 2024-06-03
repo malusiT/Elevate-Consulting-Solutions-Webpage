@@ -17,32 +17,52 @@
 }
 
 .fa-facebook {
-  background: #3B5998;
   color: white;
-  
+  background: #333;
+}
+.fa-facebook:hover{
+  background:  #3B5998;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #333;
   color: white;
+}
+.fa-twitter{
+  background: #333;
+}
+.fa-twitter:hover{
+  background: #55ACEE;
 }
 
 .fa-google {
-  background: #dd4b39;
+  background: #333;
   color: white;
+}
+.fa-google:hover{
+  background: #dd4b39;
 }
 
 .fa-linkedin {
-  background: #007bb5;
+  background: #333;
   color: white;
+}
+.fa-linkedin:hover{
+  background: #007bb5;
 }
 
 .fa-youtube {
-  background: #bb0000;
+  background: #333;
   color: white;
+}
+.fa-youtube:hover{
+  background: #bb0000;
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #333;
   color: white;
+}
+.fa-instagram:hover{
+  background: linear-gradient( #f9ce34, #ee2a7b,#6228d7);
 }

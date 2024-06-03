@@ -127,6 +127,7 @@ article {
 }
 
 #testimonials {
+    font-size: 30px;
     font-weight: bold;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
@@ -143,6 +144,7 @@ article {
 .contact-container h3 {
     grid-column: 1 / -1;
     text-align: center;
+    font-size: 25px;
 }
 
 .contact-container form {
@@ -194,7 +196,8 @@ footer ul li a {
 
 #social-media {
     display: flex;
-    flex-direction: column; /* Stack items for mobile */
+    flex-direction: row; /* Stack items for mobile */
+    justify-content: space-between;
     align-items: center;
 }
 
